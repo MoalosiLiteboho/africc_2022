@@ -17,7 +17,7 @@ def main():
             results = first_number.__pow__(second_number)
         elif operating_sign.__eq__("/"):
             if second_number.__eq__(0):  # The if statement that checks if the divisor is equal to zero if yes print message and set is_calculated to false, OR else divide the dividend by divisor and store the value in results variable
-                print("The result is ZERO as you can't divide by 0")
+                print("You can't divide " + first_number + " with 0. The result is undefined")
                 is_calulated = False
             else:
                 results = first_number.__divmod__(second_number)
