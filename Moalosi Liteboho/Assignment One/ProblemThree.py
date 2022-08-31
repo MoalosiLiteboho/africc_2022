@@ -4,8 +4,7 @@ def main():
         words = sentence.split()
         words.sort()
 
-        for word in words:
-            print(word)
+        print(words)
 
         choice = input("Do you want to try again? \nAnswer > ")  # Accept user-input whether user want to run code again
 
