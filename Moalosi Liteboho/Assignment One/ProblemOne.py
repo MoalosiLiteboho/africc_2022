@@ -25,7 +25,7 @@ def main():
             print("Invalid operating sign entered!!! \nTRY AGAIN !!!")
 
         if is_calulated:  # The if-statement that checks if the variable is_calculated is True and if yes print the Results
-            print(str("RESULTS: \n" + str(first_number) + " " + str(operating_sign) + " " + str(second_number) +" = " + str(results))
+            print("RESULTS: \n" + str(first_number) + " " + str(operating_sign) + " " + str(second_number) +" = " + str(results))
 
         choice = input("Do you want to try to use calculator again (yes / no): ")  # Accept user-input whether user want to run code again
 
