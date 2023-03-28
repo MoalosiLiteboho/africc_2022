@@ -1,7 +1,7 @@
 def main():
     while True:
         sentence = input("Enter the sentence of your choice \nSentence > ")  # Accepting user-input and store it
-        sentence = sentence.lower()  # Statement that changes string in sentense variable into lower case
+        sentence = sentence.lower()  # Statement that changes string in sentence variable into lower case
         words = sentence.split()  # Statement that split sentence into words and stores those words in a list called words
         words.sort()  # Sorting the words in a list alphabetically
         final_sentence = ' '.join(words)  # Turning the list called words into a String with a space between words
